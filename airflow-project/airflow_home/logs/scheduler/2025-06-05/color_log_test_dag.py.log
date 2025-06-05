@@ -1,0 +1,337 @@
+[2025-06-05T14:39:33.055+0700] {processor.py:157} INFO - Started process (PID=92576) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:39:33.059+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:39:33.060+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.060+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:39:33.085+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:39:33.504+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.504+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:39:33.508+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.508+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:39:33.513+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.513+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:39:33.513+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.513+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:39:33.516+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.516+0700] {dag.py:2963} INFO - Creating ORM DAG for color_log_test
+[2025-06-05T14:39:33.517+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:39:33.517+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:39:33.525+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.470 seconds
+[2025-06-05T14:41:25.608+0700] {processor.py:157} INFO - Started process (PID=92826) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:41:25.614+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:41:25.614+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:41:25.614+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:41:25.641+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:41:25.725+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:41:25.725+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:41:25.728+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:41:25.728+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:41:25.738+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.130 seconds
+[2025-06-05T14:42:26.125+0700] {processor.py:157} INFO - Started process (PID=92962) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:42:26.131+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:42:26.131+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.131+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:42:26.154+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_color_logging']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:42:26.758+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.758+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:42:26.762+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.762+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:42:26.764+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.764+0700] {manager.py:499} INFO - Created Permission View: %s
+[2025-06-05T14:42:26.765+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.765+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:42:26.769+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.769+0700] {dag.py:2963} INFO - Creating ORM DAG for test_color_logging
+[2025-06-05T14:42:26.769+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:42:26.769+0700] {dag.py:3722} INFO - Setting next_dagrun for test_color_logging to None, run_after=None
+[2025-06-05T14:42:26.777+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.653 seconds
+[2025-06-05T14:43:27.862+0700] {processor.py:157} INFO - Started process (PID=93078) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:43:27.865+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:43:27.866+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:43:27.866+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:43:27.885+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_color_logging']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:43:27.954+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:43:27.954+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:43:27.957+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:43:27.957+0700] {dag.py:3722} INFO - Setting next_dagrun for test_color_logging to None, run_after=None
+[2025-06-05T14:43:27.967+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.106 seconds
+[2025-06-05T14:45:18.585+0700] {processor.py:157} INFO - Started process (PID=93315) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:18.590+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:45:18.590+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:18.590+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:18.612+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_color_logging']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:19.107+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:19.107+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:45:19.110+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:19.110+0700] {dag.py:3722} INFO - Setting next_dagrun for test_color_logging to None, run_after=None
+[2025-06-05T14:45:19.119+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.535 seconds
+[2025-06-05T14:45:56.080+0700] {processor.py:157} INFO - Started process (PID=93413) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:56.085+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:45:56.085+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:56.085+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:56.105+0700] {processor.py:839} INFO - DAG(s) dict_keys(['test_color_logging']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:45:56.175+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:56.174+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:45:56.177+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:45:56.177+0700] {dag.py:3722} INFO - Setting next_dagrun for test_color_logging to None, run_after=None
+[2025-06-05T14:45:56.186+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.107 seconds
+[2025-06-05T14:47:27.811+0700] {processor.py:157} INFO - Started process (PID=93630) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:47:27.817+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:47:27.817+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:47:27.817+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:47:27.853+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:47:28.404+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:47:28.404+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:47:28.407+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:47:28.407+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:47:28.418+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.608 seconds
+[2025-06-05T14:48:31.362+0700] {processor.py:157} INFO - Started process (PID=93800) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:48:31.366+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:48:31.366+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:48:31.366+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:48:31.388+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:48:31.456+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:48:31.456+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:48:31.458+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:48:31.458+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:48:31.468+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.106 seconds
+[2025-06-05T14:49:25.259+0700] {processor.py:157} INFO - Started process (PID=93914) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:49:25.265+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:49:25.265+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:49:25.265+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:49:25.286+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:49:25.354+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:49:25.354+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:49:25.357+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:49:25.357+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:49:25.367+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T14:50:14.953+0700] {processor.py:157} INFO - Started process (PID=94029) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:50:14.958+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:50:14.959+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:50:14.959+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:50:14.980+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:50:15.060+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:50:15.060+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:50:15.063+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:50:15.063+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:50:15.073+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.121 seconds
+[2025-06-05T14:51:12.633+0700] {processor.py:157} INFO - Started process (PID=94128) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:51:12.637+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:51:12.637+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:51:12.637+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:51:12.672+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:51:12.746+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:51:12.746+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:51:12.749+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:51:12.748+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:51:12.758+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.125 seconds
+[2025-06-05T14:52:13.052+0700] {processor.py:157} INFO - Started process (PID=94277) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:52:13.057+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:52:13.057+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:52:13.057+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:52:13.078+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:52:13.144+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:52:13.144+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:52:13.147+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:52:13.147+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:52:13.157+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.105 seconds
+[2025-06-05T14:53:14.322+0700] {processor.py:157} INFO - Started process (PID=94426) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:53:14.328+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:53:14.328+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:53:14.328+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:53:14.350+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:53:14.424+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:53:14.424+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:53:14.428+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:53:14.428+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:53:14.439+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.117 seconds
+[2025-06-05T14:54:11.914+0700] {processor.py:157} INFO - Started process (PID=94549) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:54:11.919+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:54:11.920+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:54:11.920+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:54:11.940+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:54:12.009+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:54:12.008+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:54:12.011+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:54:12.011+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:54:12.021+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.107 seconds
+[2025-06-05T14:55:09.445+0700] {processor.py:157} INFO - Started process (PID=94668) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:55:09.451+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:55:09.452+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:55:09.452+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:55:09.474+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:55:09.557+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:55:09.557+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:55:09.560+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:55:09.560+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:55:09.569+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.124 seconds
+[2025-06-05T14:56:05.489+0700] {processor.py:157} INFO - Started process (PID=94776) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:05.495+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:56:05.495+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:05.495+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:05.517+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:05.585+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:05.585+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:56:05.588+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:05.588+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:56:05.597+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T14:56:58.619+0700] {processor.py:157} INFO - Started process (PID=94864) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:58.624+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:56:58.624+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:58.624+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:58.644+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:56:58.711+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:58.711+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:56:58.714+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:56:58.714+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:56:58.723+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.105 seconds
+[2025-06-05T14:57:52.401+0700] {processor.py:157} INFO - Started process (PID=94977) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:57:52.414+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:57:52.414+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:57:52.414+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:57:52.437+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:57:52.538+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:57:52.538+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:57:52.541+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:57:52.540+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:57:52.550+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.149 seconds
+[2025-06-05T14:58:51.025+0700] {processor.py:157} INFO - Started process (PID=95214) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:58:51.034+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:58:51.034+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:58:51.034+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:58:51.057+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:58:51.134+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:58:51.134+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:58:51.136+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:58:51.136+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:58:51.146+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.121 seconds
+[2025-06-05T14:59:57.192+0700] {processor.py:157} INFO - Started process (PID=95349) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:59:57.198+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T14:59:57.198+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:59:57.198+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:59:57.219+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T14:59:57.309+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:59:57.309+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T14:59:57.312+0700] {logging_mixin.py:151} INFO - [2025-06-05T14:59:57.312+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T14:59:57.323+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.131 seconds
+[2025-06-05T15:00:58.649+0700] {processor.py:157} INFO - Started process (PID=95445) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:00:58.653+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:00:58.653+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:00:58.653+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:00:58.675+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:00:58.745+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:00:58.745+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:00:58.747+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:00:58.747+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:00:58.757+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T15:02:02.651+0700] {processor.py:157} INFO - Started process (PID=95559) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:02.655+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:02:02.656+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:02.656+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:02.678+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:02.747+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:02.747+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:02:02.750+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:02.750+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:02:02.759+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T15:02:58.166+0700] {processor.py:157} INFO - Started process (PID=95652) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:58.171+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:02:58.171+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:58.171+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:58.191+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:02:58.260+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:58.260+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:02:58.263+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:02:58.263+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:02:58.272+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.107 seconds
+[2025-06-05T15:03:54.409+0700] {processor.py:157} INFO - Started process (PID=95779) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:03:54.414+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:03:54.415+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:03:54.415+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:03:54.436+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:03:54.523+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:03:54.523+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:03:54.526+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:03:54.526+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:03:54.534+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.125 seconds
+[2025-06-05T15:04:52.639+0700] {processor.py:157} INFO - Started process (PID=95870) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:04:52.644+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:04:52.644+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:04:52.644+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:04:52.665+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:04:52.735+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:04:52.735+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:04:52.738+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:04:52.738+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:04:52.747+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.109 seconds
+[2025-06-05T15:05:50.381+0700] {processor.py:157} INFO - Started process (PID=96030) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:05:50.388+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:05:50.388+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:05:50.388+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:05:50.409+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:05:50.477+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:05:50.477+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:05:50.480+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:05:50.480+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:05:50.489+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T15:06:46.672+0700] {processor.py:157} INFO - Started process (PID=96129) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:06:46.677+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:06:46.677+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:06:46.677+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:06:46.698+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:06:46.768+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:06:46.768+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:06:46.771+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:06:46.771+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:06:46.780+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.108 seconds
+[2025-06-05T15:07:46.363+0700] {processor.py:157} INFO - Started process (PID=96242) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:07:46.368+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:07:46.368+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:07:46.368+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:07:46.390+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:07:46.473+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:07:46.473+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:07:46.475+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:07:46.475+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:07:46.484+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.120 seconds
+[2025-06-05T15:08:51.196+0700] {processor.py:157} INFO - Started process (PID=96389) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:08:51.201+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:08:51.201+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:08:51.201+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:08:51.222+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:08:51.338+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:08:51.338+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:08:51.341+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:08:51.341+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:08:51.350+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.154 seconds
+[2025-06-05T15:09:50.066+0700] {processor.py:157} INFO - Started process (PID=96523) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:09:50.071+0700] {processor.py:829} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:09:50.071+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:09:50.071+0700] {dagbag.py:536} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:09:50.093+0700] {processor.py:839} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:09:50.173+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:09:50.173+0700] {dag.py:2941} INFO - Sync 1 DAGs
+[2025-06-05T15:09:50.176+0700] {logging_mixin.py:151} INFO - [2025-06-05T15:09:50.176+0700] {dag.py:3722} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:09:50.186+0700] {processor.py:179} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.120 seconds
+[2025-06-05T15:13:04.577+0700] {processor.py:154} INFO - Started process (PID=97029) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:13:04.577+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:13:04.578+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:13:04.578+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:13:04.600+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:13:04.685+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:13:04.685+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:13:04.691+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:13:04.691+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:13:04.699+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.122 seconds
+[2025-06-05T15:14:09.390+0700] {processor.py:154} INFO - Started process (PID=97246) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:14:09.391+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:14:09.392+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:14:09.392+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:14:09.429+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:14:09.528+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:14:09.528+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:14:09.534+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:14:09.534+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:14:09.543+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.153 seconds
+[2025-06-05T15:15:16.242+0700] {processor.py:154} INFO - Started process (PID=97460) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:15:16.243+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:15:16.243+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:15:16.243+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:15:16.266+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:15:16.393+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:15:16.393+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:15:16.401+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:15:16.401+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:15:16.412+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.171 seconds
+[2025-06-05T15:16:19.548+0700] {processor.py:154} INFO - Started process (PID=97621) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:16:19.549+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:16:19.550+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:16:19.550+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:16:19.572+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:16:19.667+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:16:19.667+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:16:19.673+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:16:19.673+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:16:19.681+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.133 seconds
+[2025-06-05T15:17:17.994+0700] {processor.py:154} INFO - Started process (PID=97731) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:17:17.995+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:17:17.996+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:17:17.996+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:17:18.018+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:17:18.125+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:17:18.125+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:17:18.130+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:17:18.130+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:17:18.139+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.145 seconds
+[2025-06-05T15:18:17.997+0700] {processor.py:154} INFO - Started process (PID=97893) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:18:17.997+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:18:17.998+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:18:17.998+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:18:18.022+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:18:18.114+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:18:18.114+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:18:18.119+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:18:18.119+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:18:18.127+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.131 seconds
+[2025-06-05T15:19:23.181+0700] {processor.py:154} INFO - Started process (PID=98058) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:19:23.183+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:19:23.184+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:19:23.183+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:19:23.206+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:19:23.304+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:19:23.304+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:19:23.310+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:19:23.310+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:19:23.318+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.137 seconds
+[2025-06-05T15:20:58.876+0700] {processor.py:154} INFO - Started process (PID=98376) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:20:58.877+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:20:58.877+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:20:58.877+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:20:58.905+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:20:59.005+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:20:59.005+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:20:59.010+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:20:59.010+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:20:59.020+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.145 seconds
+[2025-06-05T15:22:01.244+0700] {processor.py:154} INFO - Started process (PID=98522) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:22:01.245+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:22:01.246+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:22:01.246+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:22:01.270+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:22:01.366+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:22:01.366+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:22:01.372+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:22:01.372+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:22:01.381+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.137 seconds
+[2025-06-05T15:22:59.909+0700] {processor.py:154} INFO - Started process (PID=98652) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:22:59.910+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:22:59.911+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:22:59.911+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:22:59.935+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:23:00.069+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:23:00.069+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:23:00.075+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:23:00.075+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:23:00.084+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.175 seconds
+[2025-06-05T15:24:08.681+0700] {processor.py:154} INFO - Started process (PID=98805) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:24:08.682+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:24:08.682+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:24:08.682+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:24:08.705+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:24:08.791+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:24:08.791+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:24:08.796+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:24:08.796+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:24:08.820+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.139 seconds
+[2025-06-05T15:25:13.282+0700] {processor.py:154} INFO - Started process (PID=98939) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:25:13.284+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:25:13.285+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:25:13.285+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:25:13.307+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:25:13.392+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:25:13.392+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:25:13.398+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:25:13.398+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:25:13.407+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.124 seconds
+[2025-06-05T15:26:13.881+0700] {processor.py:154} INFO - Started process (PID=99092) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:26:13.882+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:26:13.883+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:26:13.883+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:26:13.908+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:26:14.003+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:26:14.003+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:26:14.009+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:26:14.009+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:26:14.017+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.137 seconds
+[2025-06-05T15:27:13.074+0700] {processor.py:154} INFO - Started process (PID=99211) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:27:13.074+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:27:13.075+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:27:13.075+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:27:13.097+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:27:13.195+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:27:13.195+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:27:13.201+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:27:13.201+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:27:13.209+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.136 seconds
+[2025-06-05T15:28:12.611+0700] {processor.py:154} INFO - Started process (PID=99349) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:28:12.612+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:28:12.613+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:28:12.613+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:28:12.634+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:28:12.719+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:28:12.719+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:28:12.725+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:28:12.725+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:28:12.734+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.124 seconds
+[2025-06-05T15:29:09.152+0700] {processor.py:154} INFO - Started process (PID=99587) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:29:09.156+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:29:09.157+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:29:09.157+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:29:09.182+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:29:09.269+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:29:09.269+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:29:09.275+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:29:09.275+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:29:09.285+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.133 seconds
+[2025-06-05T15:30:11.998+0700] {processor.py:154} INFO - Started process (PID=99879) to work on /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:30:11.999+0700] {processor.py:756} INFO - Processing file /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py for tasks to queue
+[2025-06-05T15:30:11.999+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:30:11.999+0700] {dagbag.py:537} INFO - Filling up the DagBag from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:30:12.023+0700] {processor.py:766} INFO - DAG(s) dict_keys(['color_log_test']) retrieved from /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py
+[2025-06-05T15:30:12.119+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:30:12.119+0700] {dag.py:2585} INFO - Sync 1 DAGs
+[2025-06-05T15:30:12.125+0700] {logging_mixin.py:137} INFO - [2025-06-05T15:30:12.125+0700] {dag.py:3336} INFO - Setting next_dagrun for color_log_test to None, run_after=None
+[2025-06-05T15:30:12.134+0700] {processor.py:176} INFO - Processing /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py took 0.137 seconds

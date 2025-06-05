@@ -1,0 +1,30 @@
+[2025-06-05T09:30:38.466+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: behave_tests_with_reports.run_behave_tests manual__2025-06-05T02:25:30.512623+00:00 [queued]>
+[2025-06-05T09:30:38.468+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: behave_tests_with_reports.run_behave_tests manual__2025-06-05T02:25:30.512623+00:00 [queued]>
+[2025-06-05T09:30:38.468+0700] {taskinstance.py:1361} INFO - Starting attempt 2 of 2
+[2025-06-05T09:30:38.473+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): run_behave_tests> on 2025-06-05 02:25:30.512623+00:00
+[2025-06-05T09:30:38.476+0700] {standard_task_runner.py:57} INFO - Started process 59858 to run task
+[2025-06-05T09:30:38.478+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'behave_tests_with_reports', 'run_behave_tests', 'manual__2025-06-05T02:25:30.512623+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/behave_test_dag_with_report.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmpr0sjxf_r']
+[2025-06-05T09:30:38.479+0700] {standard_task_runner.py:85} INFO - Job 13: Subtask run_behave_tests
+[2025-06-05T09:30:38.509+0700] {task_command.py:416} INFO - Running <TaskInstance: behave_tests_with_reports.run_behave_tests manual__2025-06-05T02:25:30.512623+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T09:30:38.530+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='behave_tests_with_reports' AIRFLOW_CTX_TASK_ID='run_behave_tests' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T02:25:30.512623+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T02:25:30.512623+00:00'
+[2025-06-05T09:30:38.635+0700] {logging_mixin.py:151} INFO - JSON report saved to: /Users/phuongcbnguyen/Projects/airflow-project/reports/behave_results_20250605_093038.json
+[2025-06-05T09:30:38.635+0700] {logging_mixin.py:151} INFO - HTML report saved to: /Users/phuongcbnguyen/Projects/airflow-project/reports/behave_results_20250605_093038.html
+[2025-06-05T09:30:38.636+0700] {logging_mixin.py:151} INFO - Behave tests failed with return code 2
+[2025-06-05T09:30:38.636+0700] {logging_mixin.py:151} INFO - STDOUT: 
+[2025-06-05T09:30:38.637+0700] {logging_mixin.py:151} INFO - STDERR: usage: behave [options] [ [DIR|FILE|FILE:LINE] ]+
+behave: error: format=html is unknown
+[2025-06-05T09:30:38.638+0700] {taskinstance.py:1937} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/phuongcbnguyen/Projects/airflow-project/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 192, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phuongcbnguyen/Projects/airflow-project/venv/lib/python3.11/site-packages/airflow/operators/python.py", line 209, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/behave_test_dag_with_report.py", line 68, in run_behave_tests_with_reports
+    raise Exception("Behave tests failed")
+Exception: Behave tests failed
+[2025-06-05T09:30:38.644+0700] {taskinstance.py:1400} INFO - Marking task as FAILED. dag_id=behave_tests_with_reports, task_id=run_behave_tests, execution_date=20250605T022530, start_date=20250605T023038, end_date=20250605T023038
+[2025-06-05T09:30:38.648+0700] {standard_task_runner.py:104} ERROR - Failed to execute job 13 for task run_behave_tests (Behave tests failed; 59858)
+[2025-06-05T09:30:38.671+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 1
+[2025-06-05T09:30:38.679+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

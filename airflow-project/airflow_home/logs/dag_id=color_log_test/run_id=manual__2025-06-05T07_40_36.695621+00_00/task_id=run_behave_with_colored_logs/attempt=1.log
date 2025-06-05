@@ -1,0 +1,38 @@
+[2025-06-05T14:40:46.841+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: color_log_test.run_behave_with_colored_logs manual__2025-06-05T07:40:36.695621+00:00 [queued]>
+[2025-06-05T14:40:46.843+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: color_log_test.run_behave_with_colored_logs manual__2025-06-05T07:40:36.695621+00:00 [queued]>
+[2025-06-05T14:40:46.843+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-06-05T14:40:46.849+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): run_behave_with_colored_logs> on 2025-06-05 07:40:36.695621+00:00
+[2025-06-05T14:40:46.852+0700] {standard_task_runner.py:57} INFO - Started process 92739 to run task
+[2025-06-05T14:40:46.854+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'color_log_test', 'run_behave_with_colored_logs', 'manual__2025-06-05T07:40:36.695621+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/color_log_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmp_j_hz9vz']
+[2025-06-05T14:40:46.857+0700] {standard_task_runner.py:85} INFO - Job 21: Subtask run_behave_with_colored_logs
+[2025-06-05T14:40:46.882+0700] {task_command.py:416} INFO - Running <TaskInstance: color_log_test.run_behave_with_colored_logs manual__2025-06-05T07:40:36.695621+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T14:40:46.903+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='color_log_test' AIRFLOW_CTX_TASK_ID='run_behave_with_colored_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T07:40:36.695621+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T07:40:36.695621+00:00'
+[2025-06-05T14:40:46.905+0700] {color_log_test_dag.py:58} INFO - Starting Behave test execution with colored logging
+[2025-06-05T14:40:46.906+0700] {color_log_test_dag.py:68} INFO - AIRFLOW_HOME: /Users/phuongcbnguyen/Projects/airflow-project/airflow_home
+[2025-06-05T14:40:46.906+0700] {color_log_test_dag.py:69} INFO - Project root: /Users/phuongcbnguyen/Projects/airflow-project
+[2025-06-05T14:40:46.907+0700] {color_log_test_dag.py:70} INFO - Test path: /Users/phuongcbnguyen/Projects/airflow-project/tests/features
+[2025-06-05T14:40:46.908+0700] {color_log_test_dag.py:73} INFO - Preparing test environment...
+[2025-06-05T14:40:46.909+0700] {color_log_test_dag.py:84} INFO - Running test scenarios...
+[2025-06-05T14:40:46.913+0700] {color_log_test_dag.py:90} INFO - Executing scenario: Login Test
+[2025-06-05T14:40:46.914+0700] {color_log_test_dag.py:93} INFO - Scenario 'Login Test' PASSED
+[2025-06-05T14:40:46.914+0700] {color_log_test_dag.py:90} INFO - Executing scenario: Data Validation
+[2025-06-05T14:40:46.915+0700] {color_log_test_dag.py:93} INFO - Scenario 'Data Validation' PASSED
+[2025-06-05T14:40:46.916+0700] {color_log_test_dag.py:90} INFO - Executing scenario: API Integration
+[2025-06-05T14:40:46.917+0700] {color_log_test_dag.py:95} WARNING - Scenario 'API Integration' FAILED
+[2025-06-05T14:40:46.918+0700] {color_log_test_dag.py:96} ERROR - Assertion error in 'API Integration': Expected 'A' but got 'B'
+[2025-06-05T14:40:46.919+0700] {color_log_test_dag.py:90} INFO - Executing scenario: Database Connection
+[2025-06-05T14:40:46.920+0700] {color_log_test_dag.py:98} ERROR - Exception occurred in scenario 'Database Connection'
+[2025-06-05T14:40:46.921+0700] {color_log_test_dag.py:99} ERROR - ConnectionError: Could not connect to database, connection timed out
+[2025-06-05T14:40:46.922+0700] {color_log_test_dag.py:100} ERROR - Traceback: 
+  File "features/steps/database_steps.py", line 45, in connect_to_database
+    conn = establish_connection()
+  File "features/utils/db.py", line 23, in establish_connection
+    raise ConnectionError('Could not connect to database')
+[2025-06-05T14:40:46.923+0700] {color_log_test_dag.py:90} INFO - Executing scenario: User Profile
+[2025-06-05T14:40:46.924+0700] {color_log_test_dag.py:93} INFO - Scenario 'User Profile' PASSED
+[2025-06-05T14:40:46.925+0700] {color_log_test_dag.py:113} ERROR - Test execution completed with failures: 0 failed, 3 errors
+[2025-06-05T14:40:46.926+0700] {color_log_test_dag.py:117} INFO - Test Summary: 11 passed, 0 failed, 3 errors, 0 skipped
+[2025-06-05T14:40:46.926+0700] {python.py:194} INFO - Done. Returned value was: Behave tests executed with colored logging
+[2025-06-05T14:40:46.935+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=color_log_test, task_id=run_behave_with_colored_logs, execution_date=20250605T074036, start_date=20250605T074046, end_date=20250605T074046
+[2025-06-05T14:40:46.956+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T14:40:46.964+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

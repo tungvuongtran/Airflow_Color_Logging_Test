@@ -1,0 +1,15 @@
+[2025-06-05T09:26:18.088+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: behave_tests.run_behave_tests manual__2025-06-05T02:26:13.034841+00:00 [queued]>
+[2025-06-05T09:26:18.089+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: behave_tests.run_behave_tests manual__2025-06-05T02:26:13.034841+00:00 [queued]>
+[2025-06-05T09:26:18.089+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-06-05T09:26:18.094+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): run_behave_tests> on 2025-06-05 02:26:13.034841+00:00
+[2025-06-05T09:26:18.096+0700] {standard_task_runner.py:57} INFO - Started process 59314 to run task
+[2025-06-05T09:26:18.099+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'behave_tests', 'run_behave_tests', 'manual__2025-06-05T02:26:13.034841+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/behave_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmpajvobpw0']
+[2025-06-05T09:26:18.100+0700] {standard_task_runner.py:85} INFO - Job 9: Subtask run_behave_tests
+[2025-06-05T09:26:18.122+0700] {task_command.py:416} INFO - Running <TaskInstance: behave_tests.run_behave_tests manual__2025-06-05T02:26:13.034841+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T09:26:18.141+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='behave_tests' AIRFLOW_CTX_TASK_ID='run_behave_tests' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T02:26:13.034841+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T02:26:13.034841+00:00'
+[2025-06-05T09:26:18.143+0700] {logging_mixin.py:151} INFO - Running Behave tests from: /Users/phuongcbnguyen/Projects/airflow-project/tests/features
+[2025-06-05T09:26:18.144+0700] {logging_mixin.py:151} INFO - Using Airflow home: /Users/phuongcbnguyen/Projects/airflow-project/airflow_home
+[2025-06-05T09:26:19.367+0700] {python.py:194} INFO - Done. Returned value was: Behave tests completed successfully
+[2025-06-05T09:26:19.371+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=behave_tests, task_id=run_behave_tests, execution_date=20250605T022613, start_date=20250605T022618, end_date=20250605T022619
+[2025-06-05T09:26:19.401+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T09:26:19.408+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

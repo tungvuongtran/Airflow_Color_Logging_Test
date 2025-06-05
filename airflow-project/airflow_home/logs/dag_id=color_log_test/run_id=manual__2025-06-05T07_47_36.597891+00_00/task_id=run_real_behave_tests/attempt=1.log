@@ -1,0 +1,25 @@
+[2025-06-05T14:47:45.853+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T07:47:36.597891+00:00 [queued]>
+[2025-06-05T14:47:45.855+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T07:47:36.597891+00:00 [queued]>
+[2025-06-05T14:47:45.855+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-06-05T14:47:45.859+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): run_real_behave_tests> on 2025-06-05 07:47:36.597891+00:00
+[2025-06-05T14:47:45.862+0700] {standard_task_runner.py:57} INFO - Started process 93708 to run task
+[2025-06-05T14:47:45.864+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'color_log_test', 'run_real_behave_tests', 'manual__2025-06-05T07:47:36.597891+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/color_log_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmpdgsql928']
+[2025-06-05T14:47:45.866+0700] {standard_task_runner.py:85} INFO - Job 29: Subtask run_real_behave_tests
+[2025-06-05T14:47:45.899+0700] {task_command.py:416} INFO - Running <TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T07:47:36.597891+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T14:47:45.918+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='color_log_test' AIRFLOW_CTX_TASK_ID='run_real_behave_tests' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T07:47:36.597891+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T07:47:36.597891+00:00'
+[2025-06-05T14:47:45.919+0700] {color_log_test_dag.py:127} INFO - Starting actual Behave test execution
+[2025-06-05T14:47:45.921+0700] {color_log_test_dag.py:144} INFO - Running Behave tests from /Users/phuongcbnguyen/Projects/airflow-project/tests/features
+[2025-06-05T14:47:45.921+0700] {color_log_test_dag.py:154} INFO - Executing command: behave /Users/phuongcbnguyen/Projects/airflow-project/tests/features --format json.pretty --outfile /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/reports/behave_results_20250605_144745.json
+[2025-06-05T14:47:47.044+0700] {color_log_test_dag.py:165} INFO - Behave stdout:
+[2025-06-05T14:47:47.045+0700] {color_log_test_dag.py:167} INFO - Behave test environment set up with AIRFLOW_HOME: /Users/phuongcbnguyen/Projects/airflow-project/airflow_home
+[2025-06-05T14:47:47.046+0700] {color_log_test_dag.py:167} INFO - Project root: /Users/phuongcbnguyen/Projects/airflow-project
+[2025-06-05T14:47:47.047+0700] {color_log_test_dag.py:167} INFO - Python path: ['/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/tests/features', '/Users/phuongcbnguyen/Projects/airflow-project/venv/bin', '/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home', '/Users/phuongcbnguyen/miniconda3/lib/python311.zip', '/Users/phuongcbnguyen/miniconda3/lib/python3.11', '/Users/phuongcbnguyen/miniconda3/lib/python3.11/lib-dynload', '/Users/phuongcbnguyen/Projects/airflow-project/venv/lib/python3.11/site-packages', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/config', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/plugins', '/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags']
+[2025-06-05T14:47:47.048+0700] {color_log_test_dag.py:167} INFO - 1 feature passed, 0 failed, 0 skipped
+[2025-06-05T14:47:47.048+0700] {color_log_test_dag.py:167} INFO - 2 scenarios passed, 0 failed, 0 skipped
+[2025-06-05T14:47:47.049+0700] {color_log_test_dag.py:167} INFO - 6 steps passed, 0 failed, 0 skipped, 0 undefined
+[2025-06-05T14:47:47.050+0700] {color_log_test_dag.py:167} INFO - Took 0m0.546s
+[2025-06-05T14:47:47.051+0700] {color_log_test_dag.py:179} INFO - Behave tests completed successfully
+[2025-06-05T14:47:47.051+0700] {python.py:194} INFO - Done. Returned value was: Real Behave tests executed
+[2025-06-05T14:47:47.061+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=color_log_test, task_id=run_real_behave_tests, execution_date=20250605T074736, start_date=20250605T074745, end_date=20250605T074747
+[2025-06-05T14:47:47.081+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T14:47:47.087+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check

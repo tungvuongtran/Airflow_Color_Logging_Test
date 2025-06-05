@@ -1,0 +1,37 @@
+[2025-06-05T15:14:35.570+0700] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T08:14:26+00:00 [queued]>
+[2025-06-05T15:14:35.572+0700] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T08:14:26+00:00 [queued]>
+[2025-06-05T15:14:35.572+0700] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-05T15:14:35.572+0700] {taskinstance.py:1363} INFO - Starting attempt 1 of 2
+[2025-06-05T15:14:35.572+0700] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2025-06-05T15:14:35.577+0700] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): run_real_behave_tests> on 2025-06-05 08:14:26+00:00
+[2025-06-05T15:14:35.579+0700] {standard_task_runner.py:55} INFO - Started process 97349 to run task
+[2025-06-05T15:14:35.581+0700] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'color_log_test', 'run_real_behave_tests', 'manual__2025-06-05T08:14:26+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/color_log_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmp7xmw2v2l']
+[2025-06-05T15:14:35.583+0700] {standard_task_runner.py:83} INFO - Job 11: Subtask run_real_behave_tests
+[2025-06-05T15:14:35.630+0700] {task_command.py:376} INFO - Running <TaskInstance: color_log_test.run_real_behave_tests manual__2025-06-05T08:14:26+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T15:14:35.673+0700] {taskinstance.py:1590} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=color_log_test
+AIRFLOW_CTX_TASK_ID=run_real_behave_tests
+AIRFLOW_CTX_EXECUTION_DATE=2025-06-05T08:14:26+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2025-06-05T08:14:26+00:00
+[2025-06-05T15:14:35.674+0700] {color_log_test_dag.py:127} INFO - Starting actual Behave test execution
+[2025-06-05T15:14:35.675+0700] {color_log_test_dag.py:144} INFO - Running Behave tests from /Users/phuongcbnguyen/Projects/airflow-project/tests/features
+[2025-06-05T15:14:35.676+0700] {color_log_test_dag.py:154} INFO - Executing command: behave /Users/phuongcbnguyen/Projects/airflow-project/tests/features --format json.pretty --outfile /Users/phuongcbnguyen/Projects/airflow-project/airflow_home/reports/behave_results_20250605_151435.json
+[2025-06-05T15:14:36.753+0700] {color_log_test_dag.py:165} INFO - Behave stdout:
+[2025-06-05T15:14:36.755+0700] {color_log_test_dag.py:167} INFO - Behave test environment set up with AIRFLOW_HOME: /Users/phuongcbnguyen/Projects/airflow-project/airflow_home
+[2025-06-05T15:14:36.756+0700] {color_log_test_dag.py:167} INFO - Project root: /Users/phuongcbnguyen/Projects/airflow-project
+[2025-06-05T15:14:36.757+0700] {color_log_test_dag.py:167} INFO - Python path: ['/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/tests/features', '/Users/phuongcbnguyen/Projects/airflow-project/venv/bin', '/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home', '/Users/phuongcbnguyen/miniconda3/lib/python311.zip', '/Users/phuongcbnguyen/miniconda3/lib/python3.11', '/Users/phuongcbnguyen/miniconda3/lib/python3.11/lib-dynload', '/Users/phuongcbnguyen/Projects/airflow-project/venv/lib/python3.11/site-packages', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/config', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/plugins', '/Users/phuongcbnguyen/Projects/airflow-project', '/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags']
+[2025-06-05T15:14:36.758+0700] {color_log_test_dag.py:167} INFO - 1 feature passed, 0 failed, 0 skipped
+[2025-06-05T15:14:36.760+0700] {color_log_test_dag.py:167} INFO - 2 scenarios passed, 0 failed, 0 skipped
+[2025-06-05T15:14:36.761+0700] {color_log_test_dag.py:167} INFO - 6 steps passed, 0 failed, 0 skipped, 0 undefined
+[2025-06-05T15:14:36.762+0700] {color_log_test_dag.py:167} INFO - Took 0m0.521s
+[2025-06-05T15:14:36.763+0700] {color_log_test_dag.py:171} ERROR - Behave stderr:
+[2025-06-05T15:14:36.764+0700] {color_log_test_dag.py:173} ERROR - /Users/phuongcbnguyen/Projects/airflow-project/venv/lib/python3.11/site-packages/airflow/models/base.py:49 MovedIn20Warning: Deprecated API features detected! These feature(s) are not compatible with SQLAlchemy 2.0. To prevent incompatible upgrades prior to updating applications, ensure requirements files are pinned to "sqlalchemy<2.0". Set environment variable SQLALCHEMY_WARN_20=1 to show all deprecation warnings.  Set environment variable SQLALCHEMY_SILENCE_UBER_WARNING=1 to silence this message. (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+[2025-06-05T15:14:36.765+0700] {color_log_test_dag.py:179} INFO - Behave tests completed successfully
+[2025-06-05T15:14:36.766+0700] {python.py:177} INFO - Done. Returned value was: Real Behave tests executed
+[2025-06-05T15:14:36.776+0700] {taskinstance.py:1401} INFO - Marking task as SUCCESS. dag_id=color_log_test, task_id=run_real_behave_tests, execution_date=20250605T081426, start_date=20250605T081435, end_date=20250605T081436
+[2025-06-05T15:14:36.787+0700] {local_task_job.py:159} INFO - Task exited with return code 0
+[2025-06-05T15:14:36.801+0700] {taskinstance.py:2623} INFO - 0 downstream tasks scheduled from follow-on schedule check

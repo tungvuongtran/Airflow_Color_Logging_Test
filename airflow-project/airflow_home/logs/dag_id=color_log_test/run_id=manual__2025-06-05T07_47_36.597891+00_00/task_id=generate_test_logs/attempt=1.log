@@ -1,0 +1,27 @@
+[2025-06-05T14:47:42.336+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: color_log_test.generate_test_logs manual__2025-06-05T07:47:36.597891+00:00 [queued]>
+[2025-06-05T14:47:42.337+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: color_log_test.generate_test_logs manual__2025-06-05T07:47:36.597891+00:00 [queued]>
+[2025-06-05T14:47:42.337+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-06-05T14:47:42.342+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): generate_test_logs> on 2025-06-05 07:47:36.597891+00:00
+[2025-06-05T14:47:42.344+0700] {standard_task_runner.py:57} INFO - Started process 93695 to run task
+[2025-06-05T14:47:42.347+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'color_log_test', 'generate_test_logs', 'manual__2025-06-05T07:47:36.597891+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/color_log_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmp5rlvejs2']
+[2025-06-05T14:47:42.348+0700] {standard_task_runner.py:85} INFO - Job 27: Subtask generate_test_logs
+[2025-06-05T14:47:42.388+0700] {task_command.py:416} INFO - Running <TaskInstance: color_log_test.generate_test_logs manual__2025-06-05T07:47:36.597891+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T14:47:42.408+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='color_log_test' AIRFLOW_CTX_TASK_ID='generate_test_logs' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T07:47:36.597891+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T07:47:36.597891+00:00'
+[2025-06-05T14:47:42.409+0700] {color_log_test_dag.py:27} INFO - This is a standard INFO log message
+[2025-06-05T14:47:42.410+0700] {color_log_test_dag.py:31} WARNING - This is a WARNING message that should appear in yellow
+[2025-06-05T14:47:42.411+0700] {color_log_test_dag.py:32} WARNING - Another WARNING: This task might be slow
+[2025-06-05T14:47:42.411+0700] {color_log_test_dag.py:35} ERROR - This is an ERROR message that should appear in bold red
+[2025-06-05T14:47:42.412+0700] {color_log_test_dag.py:36} ERROR - Another ERROR: Something went wrong with parameter X
+[2025-06-05T14:47:42.413+0700] {color_log_test_dag.py:39} INFO - This message contains the word 'error' and should be partially highlighted
+[2025-06-05T14:47:42.413+0700] {color_log_test_dag.py:42} INFO - This message mentions an exception and should also be highlighted
+[2025-06-05T14:47:42.414+0700] {color_log_test_dag.py:49} ERROR - Caught an exception: division by zero
+[2025-06-05T14:47:42.415+0700] {color_log_test_dag.py:50} ERROR - Traceback (most recent call last):
+  File "/Users/phuongcbnguyen/Projects/airflow-project/airflow_home/dags/color_log_test_dag.py", line 47, in generate_test_logs
+    result = 1 / 0
+             ~~^~~
+ZeroDivisionError: division by zero
+
+[2025-06-05T14:47:42.416+0700] {python.py:194} INFO - Done. Returned value was: Log test completed
+[2025-06-05T14:47:42.422+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=color_log_test, task_id=generate_test_logs, execution_date=20250605T074736, start_date=20250605T074742, end_date=20250605T074742
+[2025-06-05T14:47:42.447+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T14:47:42.455+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

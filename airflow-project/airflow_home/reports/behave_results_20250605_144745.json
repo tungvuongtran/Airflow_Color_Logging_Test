@@ -1,0 +1,151 @@
+[
+{
+  "description": [
+    "We want to test our example DAG"
+  ],
+  "elements": [
+    {
+      "keyword": "Scenario",
+      "location": "tests/features/example_dag.feature:4",
+      "name": "DAG loads correctly",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/features/example_dag.feature:5",
+          "match": {
+            "arguments": [
+              {
+                "name": "dag_id",
+                "value": "example_dag"
+              }
+            ],
+            "location": "tests/features/steps/example_dag_steps.py:11"
+          },
+          "name": "the DAG \"example_dag\" is defined",
+          "result": {
+            "duration": 0.3292043209075928,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/features/example_dag.feature:6",
+          "match": {
+            "arguments": [],
+            "location": "tests/features/steps/example_dag_steps.py:18"
+          },
+          "name": "it should have the correct structure",
+          "result": {
+            "duration": 3.790855407714844e-05,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    },
+    {
+      "keyword": "Scenario",
+      "location": "tests/features/example_dag.feature:8",
+      "name": "DAG tasks execute correctly",
+      "status": "passed",
+      "steps": [
+        {
+          "keyword": "Given",
+          "location": "tests/features/example_dag.feature:9",
+          "match": {
+            "arguments": [
+              {
+                "name": "task_id",
+                "value": "hello_task"
+              },
+              {
+                "name": "dag_id",
+                "value": "example_dag"
+              }
+            ],
+            "location": "tests/features/steps/example_dag_steps.py:31"
+          },
+          "name": "the \"hello_task\" in DAG \"example_dag\" is executed",
+          "result": {
+            "duration": 0.1377580165863037,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/features/example_dag.feature:10",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "Hello"
+              }
+            ],
+            "location": "tests/features/steps/example_dag_steps.py:38"
+          },
+          "name": "the task should return \"Hello\"",
+          "result": {
+            "duration": 4.1961669921875e-05,
+            "status": "passed"
+          },
+          "step_type": "then"
+        },
+        {
+          "keyword": "Given",
+          "location": "tests/features/example_dag.feature:12",
+          "match": {
+            "arguments": [
+              {
+                "name": "task_id",
+                "value": "goodbye_task"
+              },
+              {
+                "name": "dag_id",
+                "value": "example_dag"
+              }
+            ],
+            "location": "tests/features/steps/example_dag_steps.py:31"
+          },
+          "name": "the \"goodbye_task\" in DAG \"example_dag\" is executed",
+          "result": {
+            "duration": 0.07936811447143555,
+            "status": "passed"
+          },
+          "step_type": "given"
+        },
+        {
+          "keyword": "Then",
+          "location": "tests/features/example_dag.feature:13",
+          "match": {
+            "arguments": [
+              {
+                "name": "expected_output",
+                "value": "Goodbye"
+              }
+            ],
+            "location": "tests/features/steps/example_dag_steps.py:38"
+          },
+          "name": "the task should return \"Goodbye\"",
+          "result": {
+            "duration": 3.6716461181640625e-05,
+            "status": "passed"
+          },
+          "step_type": "then"
+        }
+      ],
+      "tags": [],
+      "type": "scenario"
+    }
+  ],
+  "keyword": "Feature",
+  "location": "tests/features/example_dag.feature:1",
+  "name": "Test Example DAG",
+  "status": "passed",
+  "tags": []
+}
+]

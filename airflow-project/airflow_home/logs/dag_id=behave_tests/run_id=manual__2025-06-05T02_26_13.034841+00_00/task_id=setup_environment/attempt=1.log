@@ -1,0 +1,27 @@
+[2025-06-05T09:26:16.092+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: behave_tests.setup_environment manual__2025-06-05T02:26:13.034841+00:00 [queued]>
+[2025-06-05T09:26:16.094+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: behave_tests.setup_environment manual__2025-06-05T02:26:13.034841+00:00 [queued]>
+[2025-06-05T09:26:16.094+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 2
+[2025-06-05T09:26:16.098+0700] {taskinstance.py:1382} INFO - Executing <Task(BashOperator): setup_environment> on 2025-06-05 02:26:13.034841+00:00
+[2025-06-05T09:26:16.101+0700] {standard_task_runner.py:57} INFO - Started process 59301 to run task
+[2025-06-05T09:26:16.103+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'behave_tests', 'setup_environment', 'manual__2025-06-05T02:26:13.034841+00:00', '--job-id', '8', '--raw', '--subdir', 'DAGS_FOLDER/behave_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmpne4ktj4q']
+[2025-06-05T09:26:16.104+0700] {standard_task_runner.py:85} INFO - Job 8: Subtask setup_environment
+[2025-06-05T09:26:16.144+0700] {task_command.py:416} INFO - Running <TaskInstance: behave_tests.setup_environment manual__2025-06-05T02:26:13.034841+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T09:26:16.165+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='behave_tests' AIRFLOW_CTX_TASK_ID='setup_environment' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T02:26:13.034841+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T02:26:13.034841+00:00'
+[2025-06-05T09:26:16.166+0700] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T
+[2025-06-05T09:26:16.167+0700] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', 'echo "AIRFLOW_HOME=$AIRFLOW_HOME"; echo "Current directory: $(pwd)"; ls -la $AIRFLOW_HOME']
+[2025-06-05T09:26:16.170+0700] {subprocess.py:86} INFO - Output:
+[2025-06-05T09:26:16.175+0700] {subprocess.py:93} INFO - AIRFLOW_HOME=/Users/phuongcbnguyen/Projects/airflow-project/airflow_home
+[2025-06-05T09:26:16.175+0700] {subprocess.py:93} INFO - Current directory: /private/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/airflowtmpbgh451n2
+[2025-06-05T09:26:16.186+0700] {subprocess.py:93} INFO - total 2208
+[2025-06-05T09:26:16.187+0700] {subprocess.py:93} INFO - drwxr-xr-x@ 8 phuongcbnguyen  1497946264     256 Jun  5 09:26 .
+[2025-06-05T09:26:16.188+0700] {subprocess.py:93} INFO - drwxr-xr-x@ 7 phuongcbnguyen  1497946264     224 Jun  5 09:25 ..
+[2025-06-05T09:26:16.189+0700] {subprocess.py:93} INFO - -rw-r--r--@ 1 phuongcbnguyen  1497946264       6 Jun  5 09:14 airflow-webserver.pid
+[2025-06-05T09:26:16.189+0700] {subprocess.py:93} INFO - -rw-------@ 1 phuongcbnguyen  1497946264   68149 Jun  5 09:02 airflow.cfg
+[2025-06-05T09:26:16.191+0700] {subprocess.py:93} INFO - -rw-r--r--@ 1 phuongcbnguyen  1497946264  999424 Jun  5 09:26 airflow.db
+[2025-06-05T09:26:16.192+0700] {subprocess.py:93} INFO - drwxr-xr-x@ 6 phuongcbnguyen  1497946264     192 Jun  5 09:22 dags
+[2025-06-05T09:26:16.194+0700] {subprocess.py:93} INFO - drwxr-xr-x@ 7 phuongcbnguyen  1497946264     224 Jun  5 09:26 logs
+[2025-06-05T09:26:16.195+0700] {subprocess.py:93} INFO - -rw-r--r--  1 phuongcbnguyen  1497946264    4771 Jun  5 09:14 webserver_config.py
+[2025-06-05T09:26:16.197+0700] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-06-05T09:26:16.208+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=behave_tests, task_id=setup_environment, execution_date=20250605T022613, start_date=20250605T022616, end_date=20250605T022616
+[2025-06-05T09:26:16.252+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T09:26:16.262+0700] {taskinstance.py:2778} INFO - 1 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,17 @@
+[2025-06-05T14:46:15.513+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: test_color_logging.log_task manual__2025-06-05T07:46:12.373063+00:00 [queued]>
+[2025-06-05T14:46:15.515+0700] {taskinstance.py:1159} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: test_color_logging.log_task manual__2025-06-05T07:46:12.373063+00:00 [queued]>
+[2025-06-05T14:46:15.515+0700] {taskinstance.py:1361} INFO - Starting attempt 1 of 1
+[2025-06-05T14:46:15.520+0700] {taskinstance.py:1382} INFO - Executing <Task(PythonOperator): log_task> on 2025-06-05 07:46:12.373063+00:00
+[2025-06-05T14:46:15.522+0700] {standard_task_runner.py:57} INFO - Started process 93457 to run task
+[2025-06-05T14:46:15.525+0700] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'test_color_logging', 'log_task', 'manual__2025-06-05T07:46:12.373063+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/color_log_test_dag.py', '--cfg-path', '/var/folders/lz/x0br3qp171708_6wp9t3swxcgzm1g0/T/tmpaxodusd2']
+[2025-06-05T14:46:15.526+0700] {standard_task_runner.py:85} INFO - Job 25: Subtask log_task
+[2025-06-05T14:46:15.572+0700] {task_command.py:416} INFO - Running <TaskInstance: test_color_logging.log_task manual__2025-06-05T07:46:12.373063+00:00 [running]> on host r6mwyf6lkg.local
+[2025-06-05T14:46:15.594+0700] {taskinstance.py:1662} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='test_color_logging' AIRFLOW_CTX_TASK_ID='log_task' AIRFLOW_CTX_EXECUTION_DATE='2025-06-05T07:46:12.373063+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-06-05T07:46:12.373063+00:00'
+[2025-06-05T14:46:15.596+0700] {color_log_test_dag.py:8} INFO - Info message
+[2025-06-05T14:46:15.597+0700] {color_log_test_dag.py:9} WARNING - Warning message
+[2025-06-05T14:46:15.598+0700] {color_log_test_dag.py:10} ERROR - Error message
+[2025-06-05T14:46:15.599+0700] {color_log_test_dag.py:11} CRITICAL - Critical message with exception
+[2025-06-05T14:46:15.600+0700] {python.py:194} INFO - Done. Returned value was: None
+[2025-06-05T14:46:15.604+0700] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=test_color_logging, task_id=log_task, execution_date=20250605T074612, start_date=20250605T074615, end_date=20250605T074615
+[2025-06-05T14:46:15.626+0700] {local_task_job_runner.py:228} INFO - Task exited with return code 0
+[2025-06-05T14:46:15.632+0700] {taskinstance.py:2778} INFO - 0 downstream tasks scheduled from follow-on schedule check
